@@ -1,0 +1,2 @@
+# Authorized ad sellers for IpsoFatsoGames apps.
+# TODO: paste the LevelPlay / ironSource lines here before launch.
