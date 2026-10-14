@@ -26,7 +26,8 @@ Suffix List, so this org site counts as its own domain. A custom domain can be a
 
 - `privacy.html`: replace `[postal address]` (GDPR Art. 13 needs the controller's identity and
   contact; a German site generally also needs an Impressum).
-- `app-ads.txt`: add the LevelPlay lines.
+- `app-ads.txt`: refresh from the Unity dashboard (Monetization > Settings > Organization >
+  App-ads.txt) and the ironSource reseller list when the dashboard reports missing sellers.
 
 ## Adding a game
 
