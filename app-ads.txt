@@ -1,6 +1,10 @@
 # Authorized ad sellers for IpsoFatsoGames apps (Unity LevelPlay mediation).
 OWNERDOMAIN=ipsofatsogames.github.io
 
+# TODO as each network account is approved, add its lines from that network's dashboard:
+# Google AdMob (google.com, pub-<your AdMob publisher id>, DIRECT, f08c47fec0942fa0), Meta Audience
+# Network, Mintegral, Pangle, Liftoff Monetize, Moloco. The ironSource and Unity Ads lines below stay.
+
 # Direct
 ironsrc.com, 690327, DIRECT
 unity.com, 8711395, DIRECT, 96cabb5fbdde37a7
