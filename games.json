@@ -40,10 +40,10 @@
       "live": false
     },
     {
-      "id": "rockstacker",
-      "name": "RockStacker",
+      "id": "ishigumi",
+      "name": "Ishigumi",
       "tagline": "",
-      "android": "com.ipsofatsogames.rockstacker",
+      "android": "com.ipsofatsogames.ishigumi",
       "ios": "",
       "icon": "",
       "banner": "",
