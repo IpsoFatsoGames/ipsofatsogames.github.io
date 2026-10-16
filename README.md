@@ -24,8 +24,8 @@ Suffix List, so this org site counts as its own domain. A custom domain can be a
 
 ## Before launch
 
-- `privacy.html`: replace `[postal address]` (GDPR Art. 13 needs the controller's identity and
-  contact; a German site generally also needs an Impressum).
+- An Impressum page (a German site generally needs one; the privacy policy already has the
+  controller's name and postal address for GDPR Art. 13).
 - `app-ads.txt`: refresh from the Unity dashboard (Monetization > Settings > Organization >
   App-ads.txt) and the ironSource reseller list when the dashboard reports missing sellers.
 
