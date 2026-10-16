@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "houseAdShare": 0.2,
+  "maxHouseAdsPerSession": 2,
+  "minSecondsBetweenHouseAds": 180,
+  "maxImpressionsPerGame": 6,
+  "appleProviderToken": "",
+  "games": [
+    {
+      "id": "hexatower",
+      "name": "Hexa Tower",
+      "tagline": "Steer through a neon hexagon tunnel to the beat.",
+      "android": "com.ipsofatsogames.hexatower",
+      "ios": "",
+      "icon": "hexatower/icon.png",
+      "banner": "hexatower/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "wobblepot",
+      "name": "Wobble Pot",
+      "tagline": "Spin the wheel and shape soft, wobbly clay into pots.",
+      "android": "com.ipsofatsogames.wobblepot",
+      "ios": "",
+      "icon": "wobblepot/icon.png",
+      "banner": "wobblepot/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "deckdash",
+      "name": "Deck Dash",
+      "tagline": "Program a little robot with cards and escape the factory.",
+      "android": "com.ipsofatsogames.deckdash",
+      "ios": "",
+      "icon": "deckdash/icon.png",
+      "banner": "deckdash/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "rockstacker",
+      "name": "RockStacker",
+      "tagline": "",
+      "android": "com.ipsofatsogames.rockstacker",
+      "ios": "",
+      "icon": "",
+      "banner": "",
+      "weight": 1,
+      "live": false
+    }
+  ]
+}

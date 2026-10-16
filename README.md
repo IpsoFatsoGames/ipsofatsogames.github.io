@@ -29,6 +29,18 @@ Suffix List, so this org site counts as its own domain. A custom domain can be a
 - `app-ads.txt`: refresh from the Unity dashboard (Monetization > Settings > Organization >
   App-ads.txt) and the ironSource reseller list when the dashboard reports missing sellers.
 
+## games.json (cross-promotion)
+
+Every game reads `games.json` to promote the studio's other games: house ads, the More Games list
+and store links (the crosspromo package in `_studio/kit`; see `_studio/README.md`). Each entry has an
+`id`, `name`, a short `tagline`, the Play package (`android`), the App Store app id (`ios`, empty
+until then), an `icon` (square) and a `banner` (the 1024x500 feature graphic as `<game>/feature.png`),
+both relative to this file, a `weight`, and `live`. Only `live` games are shown, so set it to
+`true` once the store page is public. The top-level numbers tune the house ads for all games. Games
+cache images by URL, so give a changed image a new name (or add `?v=2`). After editing, re-bundle
+the copy each game ships with: `ipso add <game> crosspromo --apply`.
+
 ## Adding a game
 
-Copy `hexatower/` to `<game>/`, swap the icon and text, and add it to `index.html`.
+Copy `hexatower/` to `<game>/`, swap the icon and text, and add it to `index.html`. Copy its feature
+graphic to `<game>/feature.png` and add it to `games.json`.
