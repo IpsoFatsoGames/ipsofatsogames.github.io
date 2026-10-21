@@ -49,6 +49,50 @@
       "banner": "",
       "weight": 1,
       "live": false
+    },
+    {
+      "id": "fiddlesticks",
+      "name": "Fiddle Sticks",
+      "tagline": "Bow along to Vivaldi, Bach and Mozart on viola or cello.",
+      "android": "com.ipsofatsogames.fiddlesticks",
+      "ios": "",
+      "icon": "fiddlesticks/icon.png",
+      "banner": "fiddlesticks/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "geowave",
+      "name": "GeoWave",
+      "tagline": "A one-thumb neon shooter with ten bosses.",
+      "android": "com.ipsofatsogames.geowave",
+      "ios": "",
+      "icon": "geowave/icon.png",
+      "banner": "geowave/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "waveblazer",
+      "name": "Wave Blazer",
+      "tagline": "Turbo jump and chain gems down twisting neon tracks.",
+      "android": "com.ipsofatsogames.waveblazer",
+      "ios": "",
+      "icon": "waveblazer/icon.png",
+      "banner": "waveblazer/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "bonsai",
+      "name": "Bonsai",
+      "tagline": "Raise a black pine bonsai through the seasons.",
+      "android": "com.ipsofatsogames.bonsai",
+      "ios": "",
+      "icon": "bonsai/icon.png",
+      "banner": "bonsai/feature.png",
+      "weight": 1,
+      "live": false
     }
   ]
 }
