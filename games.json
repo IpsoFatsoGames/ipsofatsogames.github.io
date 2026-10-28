@@ -93,6 +93,28 @@
       "banner": "bonsai/feature.png",
       "weight": 1,
       "live": false
+    },
+    {
+      "id": "molecular",
+      "name": "Molecular",
+      "tagline": "Bond atoms into 50 real molecules.",
+      "android": "com.ipsofatsogames.molecular",
+      "ios": "",
+      "icon": "molecular/icon.png",
+      "banner": "molecular/feature.png",
+      "weight": 1,
+      "live": false
+    },
+    {
+      "id": "mixedup",
+      "name": "MixedUp",
+      "tagline": "Lay glass pipes and mix paints to fill every tank.",
+      "android": "com.ipsofatsogames.mixedup",
+      "ios": "",
+      "icon": "mixedup/icon.png",
+      "banner": "mixedup/feature.png",
+      "weight": 1,
+      "live": false
     }
   ]
 }
