@@ -9,7 +9,7 @@
     {
       "id": "hexatower",
       "name": "Hexa Tower",
-      "tagline": "Steer through a neon hexagon tunnel to the beat.",
+      "tagline": "Spin up a neon hexagon tower to the beat.",
       "android": "com.ipsofatsogames.hexatower",
       "ios": "",
       "icon": "hexatower/icon.png",
