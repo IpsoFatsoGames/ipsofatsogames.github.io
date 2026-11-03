@@ -15,7 +15,7 @@
       "icon": "hexatower/icon.png",
       "banner": "hexatower/feature.png",
       "weight": 1,
-      "live": false
+      "live": true
     },
     {
       "id": "wobblepot",
