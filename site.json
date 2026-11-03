@@ -1,0 +1,56 @@
+{
+  "studio": {
+    "name": "IpsoFatsoGames",
+    "headline": "Small, fast games for your phone.",
+    "highlight": "fast games",
+    "intro": "We make mobile games that are quick to pick up and hard to put down: one-thumb arcade runs, calm puzzles and little creative toys, each made with care by a tiny independent studio in Berlin.",
+    "email": "ipsofatso926@gmail.com",
+    "url": "https://ipsofatsogames.github.io/"
+  },
+  "pages": {
+    "hexatower": {
+      "description": [
+        "Hold left, hold right, and don't touch the walls.",
+        "Hexa Tower is a neon rhythm game and endless runner in one. Your ship spins its way up a glowing hexagon tower while walls rush towards you on the beat of the music. Slip through the gaps, learn the patterns and see how far you can fly before the speed gets the better of you."
+      ],
+      "features": [
+        "Five endless modes, from Chill to Hyperspace, each with its own speed, music and global leaderboard",
+        "Every wall lands on the beat of a retro arcade and chiptune soundtrack",
+        "Simple hold-left, hold-right controls: easy to learn, hard to master",
+        "Short runs, perfect for a quick break",
+        "Synthwave neon visuals under a retro sunset sky"
+      ],
+      "screenshots": [
+        "screens/1.webp", "screens/2.webp", "screens/3.webp", "screens/4.webp",
+        "screens/5.webp", "screens/6.webp", "screens/7.webp"
+      ]
+    },
+    "wobblepot": {
+      "description": ["Spin the wheel and shape soft, wobbly clay into pots. Relax, match the target, glaze and snap a photo."]
+    },
+    "deckdash": {
+      "description": ["Program a little robot with cards and escape the factory, one floor at a time."]
+    },
+    "ishigumi": {
+      "description": ["Balance smooth river stones into calm towers in a pastel zen garden."]
+    },
+    "fiddlesticks": {
+      "description": ["Bow along to Vivaldi, Bach and Mozart on viola or cello, then read your review in the morning paper."]
+    },
+    "geowave": {
+      "description": ["A one-thumb neon shooter: clear whole waves, chase multipliers and beat ten bosses."]
+    },
+    "waveblazer": {
+      "description": ["Steer with one thumb, turbo jump and chain gems down 13 twisting neon tracks."]
+    },
+    "bonsai": {
+      "description": ["Raise a Japanese black pine bonsai: water it, prune it and watch it grow through the year."]
+    },
+    "molecular": {
+      "description": ["Bond atoms into 50 real molecules. A calm puzzle of electrons and bonds."]
+    },
+    "mixedup": {
+      "description": ["Lay glass pipes, mix the paints and pour every tank the perfect colour."]
+    }
+  }
+}

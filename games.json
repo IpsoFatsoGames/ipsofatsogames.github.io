@@ -12,7 +12,7 @@
       "tagline": "Spin up a neon hexagon tower to the beat.",
       "android": "com.ipsofatsogames.hexatower",
       "ios": "",
-      "icon": "hexatower/icon.png",
+      "icon": "hexatower/icon.png?v=2",
       "banner": "hexatower/feature.png",
       "weight": 1,
       "live": true

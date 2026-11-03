@@ -40,7 +40,23 @@ both relative to this file, a `weight`, and `live`. Only `live` games are shown,
 cache images by URL, so give a changed image a new name (or add `?v=2`). After editing, re-bundle
 the copy each game ships with: `ipso add <game> crosspromo --apply`.
 
+## Pages (build.py)
+
+`index.html` and every `<game>/index.html` are generated: edit `games.json` (name, tagline, store
+package, icon, banner, `live`) and `site.json` (the studio text, and per game its description,
+features and screenshots), then run `python build.py` (standard library only) and commit the result.
+A `live` game gets Google's "Get it on Google Play" badge (`img/google-play-badge.png`, downloaded unaltered
+from Google's badge page; their rules want it unmodified and the trademark line the footer carries; links tagged
+`utm_source=website`), a featured
+card on the home page with its first screenshots, and its gallery; the others show as coming soon.
+`privacy.html` is written by hand; `build.py` only puts the shared header and footer between its
+`site:header` / `site:footer` markers. Styles are in `style.css`.
+
+Screenshots go in `<game>/screens/` as 540x960 WebP (the store's 1080x1920 PNGs halved, quality 82,
+about 25 KB each), listed in `site.json`.
+
 ## Adding a game
 
-Copy `hexatower/` to `<game>/`, swap the icon and text, and add it to `index.html`. Copy its feature
-graphic to `<game>/feature.png` and add it to `games.json`.
+Make `<game>/` with `icon.png` (512x512) and `feature.png` (the 1024x500 feature graphic), add the
+game to `games.json` and `site.json`, and run `python build.py`. When it goes live, set `"live": true`,
+add its screenshots, and build again.
